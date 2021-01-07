@@ -616,9 +616,9 @@ input_list, prefix, output_location, random_state=12345, use_f1=False):
 
 
 def main():
-    input_location = '/Users/vwy957/Documents/ML/data/'
-    output_location = '/Users/vwy957/Documents/ML/outputs/'
-    chart_output_location = '/Users/vwy957/Documents/ML/charts/'
+    input_location = 'data/'
+    output_location = 'outputs/'
+    chart_output_location = 'charts/'
     random_state = 12345
     use_f1 =  False #True #
     file_name = 'pima_diabetes.csv'
